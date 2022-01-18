@@ -1,6 +1,1 @@
 
-<!--SpringCloud的zipkin的起始器，并注释掉原有的sleuth组件的类库-->
-        <dependency>
-            <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-starter-zipkin</artifactId>
-        </dependency>
