@@ -21,12 +21,12 @@ spring:
     #显示查询的sql语句
     show-sql: true
 #zipkin服务器的ip地址
-zipkin:
+  zipkin:
     base-url: http://192.168.222.1:9041
     sender:
        type: web
    #跟踪样本采集率是100%
-sleuth:
+  sleuth:
     sampler:
        probability: 1
 #eureka客户端向eureka服务器注册
